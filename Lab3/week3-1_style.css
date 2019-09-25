@@ -1,0 +1,37 @@
+body{
+  background-color: black;
+}
+.redPara{
+    color:red;
+}
+p{
+  font-family:"Times New Roman", Times, Serif;
+}
+p{
+  font-size:20px;
+}
+
+ul{font-size:20px;}
+.greenPara{color:green;}
+.greenPara{text-align:center;}
+
+.moreText{color:orange;}
+.text{color:red;}
+.text{font-size:15px;}
+
+
+.text{font-variant-position:super;}
+
+li{display:inline-block;}
+
+
+
+.believe{color:purple;}
+.cant{color:yellow;}
+.cant{text-transform:uppercase;}
+.cant{font-style:italic;}
+.believe{text-align:center;}
+
+
+
+li{display:inline-block;}
