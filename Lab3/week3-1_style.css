@@ -20,7 +20,7 @@ ul{font-size:20px;}
 .text{font-size:15px;}
 
 
-.text{font-variant-position:super;}
+.text{vertical-align:super;}
 
 li{display:inline-block;}
 
