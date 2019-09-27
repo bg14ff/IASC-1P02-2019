@@ -4,4 +4,6 @@
 
 p{text-transform: uppercase;}
 
-img{border: solid;}
+img{border-style:solid;}
+img{border-width:1px;}
+img{border-color:black;}
