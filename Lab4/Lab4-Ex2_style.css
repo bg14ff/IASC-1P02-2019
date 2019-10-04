@@ -1,0 +1,49 @@
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+
+
+body{
+  font-family:"Times New Roman", Times, Serif;
+}
+
+
+.blackPara{
+    color:black;
+    font-size:10px;
+    border:purple 2px dashed;
+    padding:100px 10px 20px 10px;
+    text-align:center;
+}
+
+.greenPara {
+  color:green;
+  font-size:8px;
+  text-align:center;
+}
+
+.moreText {font-size:30px;
+            color:orange;
+}
+
+.text{color:red;
+      font-size:15px;
+      vertical-align:super;
+      display:inline-block;
+}
+
+.believe{color:pink;
+  font-size:8px;
+          text-align:right;
+}
+.cant{color:yellow;
+  font-size:8px;
+      text-transform:uppercase;
+      font-style:italic;
+}
+
+li {display:inline-block;}

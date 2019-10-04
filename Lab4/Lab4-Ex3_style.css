@@ -1,0 +1,37 @@
+.MyPage {
+  background-color:green;
+}
+
+
+#MyContainer
+{
+  margin:200px 20px 20px 20px;
+  border:black 3px dashed;
+  padding: 10px 20px 5px 20px;
+
+}
+
+div p {font-size:15px;
+      }
+
+.redPara{color:red;
+}
+
+.greenPara{color:darkgreen;
+}
+
+div.outside{
+  background-color: green;
+}
+
+.outside{color:purple;
+}
+
+
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
