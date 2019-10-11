@@ -1,0 +1,53 @@
+body {
+  color:black;
+  Background-color:green;
+  margin-top:auto;
+}
+
+#wrapper{
+  width:750px;
+  margin:-20px auto;
+}
+
+#header{
+  height:60px;
+  position:relative;
+  text-align: center;
+  background-color:red;
+}
+
+#leftbody{
+  float:left;
+  height:55px;
+  background-color:pink;
+  width:190px;
+  padding-top: 5px;
+}
+
+#rightbody{
+  float:left;
+  height:55px;
+  background-color:orange;
+  width:560px;
+  padding-top: 5px;
+}
+
+#content{
+  float:bottom;
+  background-color:blue;
+  height:510px;
+}
+
+#footer{
+  bottom:40px;
+  height:40px;
+  background-color:yellow;
+}
+
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
