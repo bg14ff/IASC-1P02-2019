@@ -16,7 +16,6 @@ padding-top:10px;
 	text-align:center;
 	background-color:red;
 	padding:.5px;
-
 }
 
 #leftbody{
@@ -25,7 +24,6 @@ padding-top:10px;
 	height: 450px;
 	background-color:green;
   font-size: 10px;
-
 }
 
 #rightbody{
@@ -44,11 +42,3 @@ padding-top:10px;
 	background-color:white;
 	padding:5px;
 }
-
-<p>
-<a href="http://jigsaw.w3.org/css-validator/check/referer">
-    <img style="border:0;width:88px;height:31px"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Valid CSS!" />
-    </a>
-</p>
