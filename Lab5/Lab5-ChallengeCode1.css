@@ -1,13 +1,14 @@
 body{
 	color:white;
 	background-color:black;
+	margin-top:auto;
 }
 
 #wrapper{
 	width:950px;
 	margin:0 auto;
 	background-color:white;
-	padding-top:6px;
+padding-top:10px;
 }
 
 #header{
@@ -38,7 +39,6 @@ body{
 }
 
 #bottom{
-	float:bottom;
 	width:940px;
 	height:40px;
 	background-color:white;
