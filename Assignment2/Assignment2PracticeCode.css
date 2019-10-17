@@ -1,0 +1,8 @@
+body {
+  background-color:white;
+  font-family:"Arial", Verdana, Helvetica, sans-serif;
+}
+
+h2 ~ p1 { 
+  color-green;
+}

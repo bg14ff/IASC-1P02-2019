@@ -1,42 +1,48 @@
-body {
-  color:blue;
-  Background-color:black;
+body{
+	color:blue;
+	background-color:black;
 }
 
+
 #wrapper{
-  width:750px;
-  margin:0 auto;
-  background-color:white;
+	width:1180px;
+	margin:0 auto;
+	background-color:white;
+padding:10px;
 }
 
 #header{
-  height:50px;
-  text-align: center;
+	height:50px;
+	text-align:center;
+
 }
 
 #leftbody{
-  float:left;
-  height:500px;
-  background-color:red;
-  width:190px;
-  padding:5px;
-
+	position:absolute;
+	z-index:1;
+	width:190px;
+	height: 500px;
+	color:white;
+	background-color:#blue;
+	clear:both;
+	padding:5px;
 }
 
-.Absoluteimage{
-  float:left;
-}
+div h1,h3,p [
+z-index:2;
+]
+
 #rightbody{
-  float:left;
-  height:500px;
-  background-color:orange;
-  width:540px;
-padding:5px;
+	float:right;
+	width:540px;
+	height:500px;
+	background:#FFFF99;
+	padding:5px;
 }
 
-#footer{
-  height:50px;
-  text-align: center;
-  background-color:purple;
-  clear:both;
+#bottom{
+	text-align:center;
+	height:50px;
+	clear:both;
+
 }
