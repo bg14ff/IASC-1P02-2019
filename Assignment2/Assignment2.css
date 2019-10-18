@@ -17,6 +17,12 @@ body {
     background-color: black;
     padding: 10px;
 }
+
+.fixed {
+  position:fixed;
+  
+}
+
 ul li {
     display: inline-block;
     }
@@ -54,7 +60,7 @@ font-weight: bolder;
 #mytable {
 position: relative;
 top:40px;
-  border: 10px black solid;
+  border: 10px white dotted;
   padding-top:20px;
   padding-bottom:40px;
   padding-left:10px;
@@ -80,9 +86,11 @@ padding-top:15px;
     z-index:1;
 }
 
+
 img{
   border: 10px black solid;
 }
+
 .Italic{
   font-style: italic;
   padding:10px;
