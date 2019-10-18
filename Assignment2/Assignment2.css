@@ -19,24 +19,54 @@ body {
 }
 ul li {
     display: inline-block;
+    }
+
+ol li {
+  text-transform: uppercase;
 }
 
 h1,h2,h3,.fancy {
   text-align: center;
 }
 
+ol li {
+text-align:left;
+font-size:25px;
+font-weight: bolder;
+}
+
+
+
 #leftbody {
   border:5px blue solid;
     float: left;
     color: white;
     text-align: center;
-    height: 2180px;
+    height: 2165px;
     background-color: blue;
     width: 570px;
     padding: 10px;
 }
 
 
+
+
+#mytable {
+position: relative;
+top:40px;
+  border: 10px black solid;
+  padding-top:20px;
+  padding-bottom:40px;
+  padding-left:10px;
+  padding-right:10px;
+  font-size:20px;
+}
+
+#mytable p {
+  color:red;
+  font-family:lucida handwriting;
+  background:white;
+}
 
 #rightbody {
 padding-top:15px;
@@ -90,15 +120,24 @@ h3 {
 
 #rightbody2{
 position:Absolute;
-top:900px;
+top:1140px;
 left:680px;
-z-index:10;
+z-index:9;
 }
 
 #footer {
-
-  height: 90px;
+  height: 85px;
   text-align: center;
   background-color: black;
-  padding: 10px;
+  padding: 5px;
+  border:25px white dashed;
+  clear:left;
 }
+
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
