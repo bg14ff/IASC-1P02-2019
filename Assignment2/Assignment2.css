@@ -6,7 +6,7 @@ body {
 
 #wrapper {
     width: 1180px;
-    height:2500px;
+    height:1800px;
     margin: 0 auto;
     background-color: white;
     padding: 10px;
@@ -20,7 +20,6 @@ body {
 
 .fixed {
   position:fixed;
-  
 }
 
 ul li {
@@ -29,35 +28,27 @@ ul li {
 
 ol li {
   text-transform: uppercase;
+  text-align:left;
+  font-size:25px;
+  font-weight: bolder;
 }
 
 h1,h2,h3,.fancy {
   text-align: center;
 }
 
-ol li {
-text-align:left;
-font-size:25px;
-font-weight: bolder;
-}
-
-
-
 #leftbody {
   border:5px blue solid;
     float: left;
     color: white;
     text-align: center;
-    height: 2165px;
+    height: 1585px;
     background-color: blue;
     width: 570px;
     padding: 10px;
 }
 
-
-
-
-#mytable {
+.mytable {
 position: relative;
 top:40px;
   border: 10px white dotted;
@@ -68,7 +59,7 @@ top:40px;
   font-size:20px;
 }
 
-#mytable p {
+.mytable p {
   color:red;
   font-family:lucida handwriting;
   background:white;
@@ -78,14 +69,13 @@ top:40px;
 padding-top:15px;
     float: right;
     color: white;
-    height: 2180px;
+    height: 1600px;
     background-color: blue;
     width: 570px;
     padding-left: 5px;
     padding-right:5px;
     z-index:1;
 }
-
 
 img{
   border: 10px black solid;
@@ -103,7 +93,6 @@ img{
   font-family: serif;
   padding-left:15px;
   padding-right:15px;
-
   text-align: justify;
   border: 5px black dotted;
 }
@@ -126,7 +115,7 @@ h3 {
   font-size: 20px;
 }
 
-#rightbody2{
+.rightbody2{
 position:Absolute;
 top:1140px;
 left:680px;
