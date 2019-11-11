@@ -1,0 +1,112 @@
+body {
+  color:#336699;
+  Background-color:black;
+}
+
+#wrapper{
+  width:1000px;
+  height:1000px;
+  margin:0 auto;
+  background-color:white;
+  color:#336699;
+}
+
+
+
+.Description{
+  text-align:center;
+  right:300px;
+
+}
+.socialicons{
+  position:absolute;
+  right:175px;
+  top:35px;
+}
+
+#header{
+
+  width:1000px;
+  height:60px;
+
+padding-top:5px;
+  background-color:;
+border-bottom:5px #336699 solid;
+border-top:5px #336699 solid;
+}
+
+.buttons{
+    position: absolute;
+    right:200px;
+    top:145px;
+  }
+
+  .icons{
+    position: absolute;
+    right:175px;
+    top:175px;
+  }
+
+#leftbody{
+  text-align: center;
+  font-size: 30px;
+float:left;
+  left:50px;
+  height:695px;
+  width:255px;
+  background-color:#FF9900;
+  padding:10px;
+  border-bottom:5px #336699 solid;
+  border-right:5px #336699 solid;
+}
+
+
+
+#mainbody{
+  text-align: center;
+  font-size: 30px;
+  color:white;
+float:right;
+right:50px;
+  height:700px;
+  width:700px;
+  background-color:#336699;
+  padding:10px;
+}
+
+.video{
+  width:700px;
+  height:300px;
+}
+.ship{
+  width:700px;
+  height:250px;
+}
+
+
+
+#footer{
+  height:75px;
+  text-align: center;
+  background-color: white;
+  font-size: 30px;
+  padding:1px;
+  clear:both;
+}
+
+.morebuttons{
+  position:absolute;
+  left:180px;
+  top:960px;
+}
+
+.otherbuttons{
+  position:absolute;
+  right:175px;
+  top:955px;
+}
+/*this #FF9900 is orange*/
+/*this #336699 is blue*/
+#222222  darkgrey
+
+#8e8e8e lighter than darkgrey
