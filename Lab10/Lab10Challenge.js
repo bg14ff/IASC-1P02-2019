@@ -6,12 +6,7 @@ function addition() {
 
  var output = parseFloat(a) + parseFloat(b);
 
- if (!Number.isInteger(output)) {
-   output = "OUTPUT";
- }
- else {
-  output = parseFloat(a) + parseFloat(b);
-}
+
 document.getElementById('out').innerHTML = output;
 }
 
@@ -23,12 +18,7 @@ function subtraction() {
 
  var output = parseFloat(a) - parseFloat(b);
 
- if (!Number.isInteger(output)) {
-   output = "OUTPUT";
- }
- else {
-  output = parseFloat(a) - parseFloat(b);
-}
+
 document.getElementById('out').innerHTML = output;
 }
 
@@ -40,12 +30,7 @@ function multiplication() {
 
  var output = parseFloat(a) * parseFloat(b);
 
- if (!Number.isInteger(output)) {
-   output = "OUTPUT";
- }
- else {
-  output = parseFloat(a) * parseFloat(b);
-}
+
 document.getElementById('out').innerHTML = output;
 }
 
@@ -57,11 +42,5 @@ function division() {
 
  var output = parseFloat(a) / parseFloat(b);
 
- if (!Number.isInteger(output)) {
-   output = "OUTPUT";
- }
- else {
-  output = parseFloat(a) / parseFloat(b);
-}
 document.getElementById('out').innerHTML = output;
 }
