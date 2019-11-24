@@ -29,16 +29,8 @@
 
         }
 
-    ol li {
-      text-transform: uppercase;
-      text-align:left;
-      font-size:25px;
-      font-weight: bolder;
-    }
+  
 
-    h1,h2,h3,.fancy {
-      text-align: center;
-    }
 
     #leftbody {
 
@@ -51,28 +43,9 @@
 
     }
 
-    .leftbody2{
-      position: relative;
-      top:20px;
-      left:75px;
-    }
 
-    .mytable {
-    position: relative;
-    top:40px;
 
-      padding-top:20px;
-      padding-bottom:40px;
-      padding-left:10px;
-      padding-right:10px;
-      font-size:20px;
-    }
 
-    .mytable p {
-
-      font-family:lucida handwriting;
-      background:white;
-    }
 
     #rightbody {
 
@@ -86,52 +59,12 @@
 
 
 
-
-
-    .redpara{
-
-      background:white;
-      font-family: serif;
-      padding-left:15px;
-      padding-right:15px;
-      text-align: justify;
-
-    }
-
-    .size{
-      font-size: 25px;
-
-    }
-
-    h3 {
-      background-color:white;
-    }
-
-    .fancy {
-
-      background-color:white;
-
-
-      text-transform: full-width;
-      font-size: 20px;
-    }
-
-
-
-    .rightbody2{
-    position:Absolute;
-    top:1140px;
-    left:680px;
-
-    }
-
-
     #footer {
       height: 85px;
       text-align: center;
       background-color: black;
       padding: 5px;
 
-      clear:left;
+
     }
 border:25px white dashed;
