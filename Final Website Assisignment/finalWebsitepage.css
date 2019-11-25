@@ -1,6 +1,7 @@
    body {
         font-family: "Arial", Verdana, Helvetica, sans-serif;
         Background-color: white;
+        color:black;
     }
 
     #wrapper {
@@ -11,7 +12,7 @@
     }
 
     #header {
-        height: 90px;
+        height: 100px;
         width:1180px;
         text-align: center;
         background-color: orange;
@@ -22,49 +23,31 @@
       text-align: center;
     }
 
-
-
     ul li {
         display: inline-block;
-
         }
 
-  
-
-
     #leftbody {
-
-        float: left;
-
-        text-align: center;
-        height: 1585px;
+        height: 800px;
         background-color: pink;
-        width: 570px;
+        width: 1180px;
+        padding-top:80px;
 
     }
-
-
-
-
+    .leftbody2 {
+      float:right;
+    }
 
     #rightbody {
 
-        float: right;
-
-        height: 1600px;
+        height: 800px;
         background-color: blue;
-        width: 570px;
-
+        width: 1180px;
     }
-
-
 
     #footer {
-      height: 85px;
+      height: 100px;
       text-align: center;
-      background-color: black;
+      background-color: orange;
       padding: 5px;
-
-
     }
-border:25px white dashed;

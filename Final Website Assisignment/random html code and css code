@@ -1,0 +1,149 @@
+code from Lab 1 (no css)
+
+<p><strong>IASC</strong> <font color="red">1P02 is</font> <em>sweet?</em></p>
+<p><img src="https://cdn.hswstatic.com/gif/whiskers-sam.jpg" alt="cute cat"></p>
+
+<ul>
+<li> I like Cats.</li>
+<li> This cat is cute.</li>
+<li> I'm sure it is soft as well.</li>
+</ul>
+
+<p><img src="SkyCreeper2.jpg" alt="Face in clouds"></p>
+
+<ol>
+<li> I thought the sky looked cool.</li>
+<li> I took a picture of the cool sky.</li>
+<li> The picture surprised me with a skycreeper lurking.</li>
+</ol>
+
+<table border="1" width="200" height="200">
+
+  <tr>
+    <td>First Name
+</td>
+<td>Last Name
+    </td>
+</tr>
+<tr>
+<td colspan="2"> Brenda Garlow
+
+</td>
+
+</tr>
+</table>
+
+<p></p>
+
+<table border="1" width="200" height="200">
+
+  <tr>
+    <td>First Name
+</td>
+<td rowspan="2">Last Name
+    </td>
+</tr>
+<tr>
+<td> Brenda
+</td>
+
+</tr>
+</table>
+
+
+with CSS
+<div>
+<p class="greenText">Happy Day!</p>
+
+</div>
+
+<div>
+	<p class="greenText">Let the Sun Shine In!"</p>
+</div>
+the CSS
+#h1{font-color:red;}
+#h1{font-weight:bold;}
+
+.greenText{color:green;}
+
+.greenText{font-style:italic;}
+
+h1{color:red;}
+
+more code
+<div>
+			<p>September</p>
+		</div>
+
+    <img src="https://media.timeout.com/images/105285811/1024/576/image.jpg" alt="Fall Leaves"/>
+  the CSS
+  .sansserif {
+  font-family:"Arial", Verdana, Helvetica, sans-serif;
+}
+
+p{text-transform: uppercase;}
+
+img{border-style:solid;}
+img{border-width:1px;}
+img{border-color:black;}
+
+more code
+<div>
+			<p class="redPara">This is some awesome text</p>
+		</div>
+
+<div>
+<p class="greenPara">This is some text</p>
+
+<ul class="moreText">
+		 <li> More</li>
+		 <li class="text"> Text</li>
+		 <li class="moreText"> Than before</li>
+ </ul>
+</div>
+
+<div>
+ <ul class="believe">
+ 		 <li> I</li>
+ 		 <li class="cant"> Can't</li>
+ 		 <li class="believe"> believe it's not more text</li>
+  </ul>
+</div>
+the CSS
+body{
+  background-color: black;
+}
+.redPara{
+    color:red;
+}
+p{
+  font-family:"Times New Roman", Times, Serif;
+}
+p{
+  font-size:20px;
+}
+
+ul{font-size:20px;}
+.greenPara{color:green;}
+.greenPara{text-align:center;}
+
+.moreText{color:orange;}
+.text{color:red;}
+.text{font-size:15px;}
+
+
+.text{vertical-align:super;}
+
+li{display:inline-block;}
+
+
+
+.believe{color:purple;}
+.cant{color:yellow;}
+.cant{text-transform:uppercase;}
+.cant{font-style:italic;}
+.believe{text-align:center;}
+
+
+
+li{display:inline-block;}
