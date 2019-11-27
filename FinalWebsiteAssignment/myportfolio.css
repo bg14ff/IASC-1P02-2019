@@ -1,1 +1,101 @@
-/*fill in stuff for space saver*/
+
+body {
+  color:black;
+  Background-color:white;
+  margin-top:auto;
+}
+
+#wrapper{
+  width:1330px;
+  height: 1225px;
+  margin:0px auto;
+}
+
+#header{
+  height:50px;
+  width:1200px;
+  position:fixed;
+  text-align: center;
+  background-color:royalblue;
+z-index:10;
+}
+
+#mainbody{
+  height:1100px;
+  width: 1180px;
+  background-color:#FF8C00;
+  padding-left:20px;
+  padding-top: 90px;
+  font-size: 20px;
+}
+
+.myStyle{
+  color:red;
+}
+
+.unique{
+  font-family: sans-serif;
+}
+
+.firstheader{
+  text-align: center;
+}
+
+.blueText{
+  color:blue;
+  text-align: center;
+  font-size: 30px;
+}
+
+.yellowText{
+  color:yellow;
+  text-align: center;
+  top:1000px;
+  font-size: 30px;
+}
+
+
+
+#picture{
+position:absolute;
+top:250px;
+left:350px;
+z-index: 1;
+}
+
+.myPicture{
+  text-align: center;
+  color:#800000;
+}
+
+.Lab1Assignment{
+  position:absolute;
+  top:100px;
+  left:600px;
+}
+
+.Sunshine{
+  position:absolute;
+  top:600px;
+  left:125px;
+}
+#footer{
+  height:50px;
+  width:1200px;
+  background-color:royalblue;
+  padding-top: 10px;
+}
+
+
+
+li {display:inline-block;
+font-size:30px;
+}
+
+h1 {
+  text-align: center;
+}
+ol {
+  text-align: center;
+  display:block;
+}
