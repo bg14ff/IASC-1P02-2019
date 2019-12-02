@@ -1,53 +1,50 @@
    body {
-        font-family: "Arial", Verdana, Helvetica, sans-serif;
         Background-color: white;
         color:black;
     }
 
     #wrapper {
-        width: 1180px;
+        width: 1300px;
         height:1800px;
         margin: 0 auto;
         background-color: white;
     }
 
     #header {
-        height: 100px;
-        width:1180px;
+        height: 400px;
+        width:590px;
         text-align: center;
-        background-color: orange;
-        position:fixed;
+        background-color: grey;
     }
 
-    h1{
-      text-align: center;
-    }
 
     ul li {
         display: inline-block;
         }
 
     #leftbody {
-        height: 800px;
+  float:left;
+  top:400px;
+        height: 1000px;
         background-color: pink;
-        width: 1180px;
-        padding-top:80px;
+        width: 600px;
 
-    }
-    .leftbody2 {
-      float:right;
     }
 
     #rightbody {
+      position: fixed;
 
-        height: 800px;
-        background-color: blue;
-        width: 1180px;
+      left:650px;
+background-color: yellow;
+        height: 1000px;
+        width: 600px;
     }
 
     #footer {
-      height: 100px;
+
+      height: 400px;
+      width:600px;
       text-align: center;
-      background-color: orange;
-      padding: 5px;
+      background-color: grey;
+
     }

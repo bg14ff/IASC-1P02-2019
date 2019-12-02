@@ -9,61 +9,84 @@
     <script type="text/javascript" src="myportfolio.js"></script>
 </head>
 
-			<body>
+<body onload = "liveTime()">
+
 
 <div id="wrapper">
 
-		<div id="header">
+	<div id="header">
 
-<ul>
-<li> <a href="myportfolio.html"> Home</a> </li>
-<li> </li> <li> </li> <li> </li> <li> </li> <li> </li> <li> </li>
-<li> <a href="myportfolioabout.html"> About</a> </li>
-<li> </li> <li> </li> <li> </li> <li> </li> <li> </li> <li> </li>
-<li> <a href="myportfolioprojects.html"> Projects</a> </li>
-<li> </li> <li> </li> <li> </li> <li> </li> <li> </li> <li> </li>
- <a href="myportfolioreflection.html"> Reflection</a>
-<li> </li> <li> </li> <li> </li> <li> </li> <li> </li> <li> </li>
-<a href="#bottom-header">Bottom</a>
-</ul>
+<p id="myClock">Hello</p>
+
+
+
+<h2>My Interactive Arts & Science Portfolio</h2>
+
+
+<div class="dropdown">
+	<button class="dropbtn">Explore Portfolio</button>
+	<div class="dropdown-content">
+
+				<ul>
+				<li> <a href="myportfolio.html"> Home</a> </li>
+
+				<li> <a href="myportfolioabout.html"> About</a> </li>
+
+				<li> <a href="myportfolioprojects.html"> Projects</a> </li>
+
+				<li> <a href="myportfolioreflection.html"> Reflection</a> </li>
+
+
+				<li> <a href="#bottom-header">Bottom</a> </li>
+
+				</ul>
+
+
 
 </div>
 
+
+	</div>
+
+</div>
+
+
 <div id="mainbody">
 
-	<h1><strong>What I Learned in IASC 1P02</strong></h1>
-
+	<div>
+	<h2><strong>What I Learned in IASC 1P02</strong></h2>
 	<ol>
 		<li>HTML</li>
 		<li>CSS</li>
 		<li>Javascript</li>
 	</ol>
+</div>
 
-
-<form name="myform">
+<!--
+<form name="myform"
 	<label for="inputText">Your Name</label>
 	<input type="text" id="inputText" name="inputText" value="Enter name here!"/>
 
 	<button type="button" onclick="formOutputs()">Log to console</button>
 </form>
 
-<p id="year">Year Here</p>
+<p id="year">Year Here</p>-->
+
+
 <p> How long have you been looking at this page?</p>
 
-<button type= "button" onclick="stopTime()">STOP TIME</button>
+<button type= "button" onclick="stopTime()">Find Out</button>
 
-<div>
-<p class="greenPara">This is some text</p>
-
-</div>
 
 <div>
 <p id="output">Hello!</p>
 
 	<button onclick="pushMe()">Push Me</button>
+<p id="output2">Good Bye</p>
+
 </div>
 
-	<div>
+	<div class="calculator">
 		<input type="text" id="num1" value="Number 1" />
 
 		<button type= "button" onclick="addition()">+</button>
@@ -75,27 +98,65 @@
 
 		<p id="out">OUTPUT</p>
 
-
-<!--<p><img src="https://cdn.hswstatic.com/gif/whiskers-sam.jpg" alt="cute cat"></p>
-<p><img src="SkyCreeper2.jpg" alt="Face in clouds"></p>-->
-
+</div>
+<br></br>
+<br></br>
+<br></br>
 <div>
 
-<h2> <a href="https://www.brocku.ca"> Go to Brocku!</a> </h2>
-</div>
-<div>
-
-	<p> <font color="red">This is some red content</font></p>
-	<p> <font color="green">This is some green content</font></p>
-	<p> <font color="blue">This is some blue content</font></p>
+	<p> I have really enjoyed this course and found it to be be very challenging indeed.</p>
+	<p> </p>
+	<p> </p>
 
 </div>
 
-</div>
+<div class="cellForm">
+<table cellspacing="2" border="2" width="1250">
+
+  <tr>
+    <td><h1>Header Size 1</h1>
+</td>
+<td><h2>Header Size 2</h2>
+    </td>
+  <td><h3>Header Size 3</h3>
+	</td>
+	<td><h4>Header Size 4</h4>
+	</td>
+	<td><h5>Header Size 5</h5>
+	</td>
+	<td><h6>Header Size 6</h6>
+	</td>
+</tr>
+
+<tr>
+<td><font color="red">This is some red content</font></td>
+<td colspan="2"> <a href="https://www.brocku.ca"> Go to Brocku!</a></td>
+<td colspan="3"><p class="firstheader"> It's a Beautiful Day!</p></td>
+</tr>
+<tr>
+<td>Cell 4</td>
+<td colspan="2"> Cell 5</td>
+<td><p class="yellowText">Let the Sun Shine In!</p></td>
+<td>Cell 7</td>
+<td></td>
+
+
+</tr>
+<tr>
+<td colspan="2"> <font color="green">This is some green content</font></td>
+<td>Cell 10</td>
+<td colspan="3"> <font color="blue">This is some blue content</font></td>
+</tr>
+
+</table>
+
 </div>
 
+</div>
 <div id="footer">
-<a name="bottom-header"><div class="blueText">Have a Happy Day!</div></a>
+<a name="bottom-header" <div class="blueText">Have a Happy Day!</a>
+
+
 </div>
 
 </div>

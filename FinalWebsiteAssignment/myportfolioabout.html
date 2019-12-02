@@ -9,41 +9,56 @@
     <script type="text/javascript" src="myportfolio.js"></script>
 </head>
 
-<body>
+<body onload = "liveTime()">
+
 
 <div id="wrapper">
 
 
 
-<div id="header">
+	<div id="header">
+<p id="myClock">Hello</p>
 
-<ul>
-<li> <a href="myportfolio.html"> Home</a> </li>
-<li> </li> <li> </li> <li> </li> <li> </li> <li> </li> <li> </li>
-<li> <a href="myportfolioabout.html"> About</a> </li>
-<li> </li> <li> </li> <li> </li> <li> </li> <li> </li> <li> </li>
-<li> <a href="myportfolioprojects.html"> Projects</a> </li>
-<li> </li> <li> </li> <li> </li> <li> </li> <li> </li> <li> </li>
-<li> <a href="myportfolioreflection.html"> Reflection</a> </li>
-<li> </li> <li> </li> <li> </li> <li> </li> <li> </li> <li> </li>
-<!--anchor-->
-<li><a href="#bottom-header">Bottom</a></li>
-</ul>
+<h2>About</h2>
+
+<div class="dropdown">
+	<button class="dropbtn">Explore Portfolio</button>
+	<div class="dropdown-content">
+
+				<ul>
+				<li> <a href="myportfolio.html"> Home</a> </li>
+
+				<li> <a href="myportfolioabout.html"> About</a> </li>
+
+				<li> <a href="myportfolioprojects.html"> Projects</a> </li>
+
+				<li> <a href="myportfolioreflection.html"> Reflection</a> </li>
+					
+
+				<li> <a href="#bottom-header">Bottom</a> </li>
+
+				</ul>
+
+
+
 </div>
+
+</div>
+	</div>
 
 <div id="mainbody">
-<div>
-<h1 class="firstheader"> It's a Beautiful Day!</h1>
-</div>
-
-<!--Relative picture-->
-<h2 class="myPicture">Picture of me and my favorite food that I made with GIMP!</h2>
-
-<div id="picture"/>
-<img src="Lab6FinalPhotoMade WithGIMP.jpg" alt="Picture of me and my favorite food that I made with GIMP" class="shrinkToFit" width="451" height="473"/>
 
 
-	<p class="yellowText">Let the Sun Shine In!</p>
+	<p id="output1">Why is Cinderella bad at soccer?</p>
+
+			<p id="output2"></p>
+
+			<button onclick="theRest2()">Click for Punch Line</button>
+			<br></br>
+			<span id="Cinderella">
+			</span>
+
+
 
 <!--Absolute picture-->
 <div class="Sunshine"/>

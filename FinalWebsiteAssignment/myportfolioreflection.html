@@ -9,29 +9,44 @@
     <script type="text/javascript" src="myportfolio.js"></script>
 </head>
 
-<body>
+<body onload = "liveTime()">
+
 
 <div id="wrapper">
 
 
+	<div id="header">
+<p id="myClock">Hello</p>
 
-<div id="header">
+<h2>Reflection</h2>
 
-<ul>
-<li> <a href="myportfolio.html"> Home</a> </li>
-<li> </li> <li> </li> <li> </li> <li> </li> <li> </li> <li> </li>
-<li> <a href="myportfolioabout.html"> About</a> </li>
-<li> </li> <li> </li> <li> </li> <li> </li> <li> </li> <li> </li>
-<li> <a href="myportfolioprojects.html"> Projects</a> </li>
-<li> </li> <li> </li> <li> </li> <li> </li> <li> </li> <li> </li>
-<li> <a href="myportfolioreflection.html"> Reflection</a> </li>
-<li> </li> <li> </li> <li> </li> <li> </li> <li> </li> <li> </li>
-<a href="#bottom-header">Bottom</a>
-</ul>
+<div class="dropdown">
+	<button class="dropbtn">Explore Portfolio</button>
+	<div class="dropdown-content">
+
+				<ul>
+				<li> <a href="myportfolio.html"> Home</a> </li>
+
+				<li> <a href="myportfolioabout.html"> About</a> </li>
+
+				<li> <a href="myportfolioprojects.html"> Projects</a> </li>
+
+				<li> <a href="myportfolioreflection.html"> Reflection</a> </li>
+			
+
+				<li> <a href="#bottom-header">Bottom</a> </li>
+
+				</ul>
+
+
+
+</div>
+
+
+	</div>
 </div>
 
 <div id="mainbody">
-
 
 		<p id="output1">Why did the dog lie in the sun?</p>
 
@@ -40,15 +55,57 @@
 		<button onclick="theRest()">Click for Punch Line</button>
 
 		<br></br>
+<span id="Jerry">
 
-		<img src="https://media.tenor.com/images/cdb327ec053535ce6c41b1c0f8bc4a7d/tenor.gif" alt="Tom and Jerry's Jerry Laughing"/>
+</span>
 
+<!--add a new box and include Lab 5 Challenge Two Two Column Layout-->
+
+<h3>This is A Two Column Layout using HTML & CSS</h3>
+
+<div id="wrapper2">
+
+		<div id="header2"><em><strong>Header</strong></em></div>
+
+		<div id="leftbody"><em>Leftbody</em></div>
+
+		<div id="rightbody"><em>Rightbody</em></div>
+
+		<div id="content"><em>Content</em><h3>Using CSS to style an HTML Form</h3>
+
+<!--cite code found at W3School and altered to suit my purpose-->
+<div class="div">
+	<form action="/action_page.php">
+		<label for="fname">First Name</label>
+		<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+		<label for="lname">Last Name</label>
+		<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+		<label for="country">Country</label>
+		<select id="country" name="country">
+			<option value="australia">Australia</option>
+			<option value="canada">Canada</option>
+			<option value="usa">USA</option>
+		</select>
+		 <input type="submit" value="Submit">
+
+		</form>
+		</div>
+ </div>
+ <div id="footer2">
+ 	<em>Footer</em>
+ </div>
 </div>
 
+
+
+
+
+</div>
 
 <div id="footer">
-<a name="bottom-header"><div class="blueText">Have a Happy Day!</div></a>
-</div>
+	<a name="bottom-header"</a><div class="blueText">Have a Happy Day!</div>
 </div>
 
 </body>
