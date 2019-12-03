@@ -97,11 +97,37 @@ padding-right:20px;
   font-size: 20px;
 }
 
+#Jerry img {
+position: absolute;
+
+}
+
+#Cinderella img {
+  position:absolute;
+}
+.timeSpent {
+  position:absolute;
+  left:400px;
+  top:300px;
+
+}
+
+.Italic {
+  font-style: italic;
+}
+
+.helloGoodbye {
+position: relative;
+left:50px;
+top:35px;
+font-size: 30px;
+color:darkblue;
+}
 
 .calculator{
   position: absolute;
-  top:300px;
-  left:560px;
+  top:280px;
+  left:890px;
   width:200px;
 }
 /*Using CSS to style an image gallery*/
@@ -132,6 +158,7 @@ div.desc {
   color:red;
 }
 
+}
 .unique{
   font-family: sans-serif;
 }
@@ -150,10 +177,20 @@ div.desc {
   font-size: 30px;
 }
 
+#learned {
+  font-size: 20px;
+
+}
+
+
+#year {
+text-align: center;
+}
 .yellowText{
-  color:yellow;
+  color:orange;
+text-emphasis-style: filled;
   text-align: center;
-  top:1000px;
+font-family: serif;
   font-size: 30px;
 }
 
@@ -174,10 +211,18 @@ left:500px;
 }
 .gallery2 {
   float:right;
-  padding-top:70px;
+  padding-top:90px;
 }
+
+.gallery2 div.desc {
+  height:20px;
+  padding: 30px;
+  text-align: center;
+}
+
 .cellForm {
   text-align: center;
+background-color: white;
 }
 
 .myList{
@@ -203,6 +248,7 @@ left:50px;
   padding-top: 10px;
   padding-left:20px;
   padding-right:20px;
+
 }
 
 
@@ -225,7 +271,7 @@ ol {
 #wrapper2{
   width:500px;
   margin: auto;
-  border: 2px royalblue solid;
+  border: none;
 }
 
 #header2 {
@@ -303,3 +349,9 @@ padding:20px;
   background-color: white;
   padding: 10px;
 }
+
+
+/*html
+<h1>Heading 1 (center)</h1>
+<h2>Heading 2 (left)</h2>
+<h3>Heading 3 (right)</h3>*/

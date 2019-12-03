@@ -1,0 +1,150 @@
+body {
+    color: blue;
+    font-family: "Arial", Verdana, Helvetica, sans-serif;
+    Background-color: black;
+}
+
+#wrapper {
+    width: 1180px;
+    height:1800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#header {
+    height: 90px;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+
+.fixed {
+  position:fixed;
+}
+
+ul li {
+    display: inline-block;
+    }
+
+ol li {
+  text-transform: uppercase;
+  text-align:left;
+  font-size:25px;
+  font-weight: bolder;
+}
+
+h1,h2,h3,.fancy {
+  text-align: center;
+}
+
+#leftbody {
+  border:5px blue solid;
+    float: left;
+    color: white;
+    text-align: center;
+    height: 1585px;
+    background-color: blue;
+    width: 570px;
+    padding: 10px;
+}
+
+.leftbody2{
+  position: relative;
+  top:20px;
+  left:75px;
+}
+
+.mytable {
+position: relative;
+top:40px;
+  border: 10px white dotted;
+  padding-top:20px;
+  padding-bottom:40px;
+  padding-left:10px;
+  padding-right:10px;
+  font-size:20px;
+}
+
+.mytable p {
+  color:red;
+  font-family:lucida handwriting;
+  background:white;
+}
+
+#rightbody {
+padding-top:15px;
+    float: right;
+    color: white;
+    height: 1600px;
+    background-color: blue;
+    width: 570px;
+    padding-left: 5px;
+    padding-right:5px;
+    z-index:1;
+}
+
+img{
+  border: 10px black solid;
+}
+
+.Italic{
+  font-style: italic;
+  padding:10px;
+  background-color:black;
+}
+
+.redpara{
+  color:red;
+  background:white;
+  font-family: serif;
+  padding-left:15px;
+  padding-right:15px;
+  text-align: justify;
+  border: 5px black dotted;
+}
+
+.size{
+  font-size: 25px;
+  color:white;
+}
+
+h3 {
+  background-color:white;
+}
+
+.fancy {
+  color:blue;
+  background-color:white;
+  border: 8px blue dashed;
+  padding:5px;
+  text-transform: full-width;
+  font-size: 20px;
+}
+
+.leftbody2 {
+float:left;
+}
+
+.rightbody2{
+position:Absolute;
+top:1140px;
+left:680px;
+z-index:9;
+}
+
+#footer {
+  height: 85px;
+  text-align: center;
+  background-color: black;
+  padding: 5px;
+  border:25px white dashed;
+  clear:left;
+}
+
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>

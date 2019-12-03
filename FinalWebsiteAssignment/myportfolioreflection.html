@@ -32,7 +32,7 @@
 				<li> <a href="myportfolioprojects.html"> Projects</a> </li>
 
 				<li> <a href="myportfolioreflection.html"> Reflection</a> </li>
-			
+
 
 				<li> <a href="#bottom-header">Bottom</a> </li>
 
@@ -50,37 +50,48 @@
 
 		<p id="output1">Why did the dog lie in the sun?</p>
 
-		<p id="output2"></p>
+		<p id="output2">?</p>
 
 		<button onclick="theRest()">Click for Punch Line</button>
-
+<!--It took some time on Lifesize, but Tynan helped me figure out how to stop the punchline
+ from bumping the other page content on opening and then I applied the same to Cinderella joke on the about page-->
 		<br></br>
 <span id="Jerry">
-
 </span>
+
+<div class="gallery2">
+	<div class="desc">Picture of my first webpage</div>
+	<a target="_blank" href="Lab1AssignmentHTML.jpg">
+		<img src="Lab1AssignmentHTML.jpg" alt="Picture of Lab1AssignmentHTML" width="300" height="750"/>
+	</a>
+</div>
+
+
 
 <!--add a new box and include Lab 5 Challenge Two Two Column Layout-->
 
-<h3>This is A Two Column Layout using HTML & CSS</h3>
+
 
 <div id="wrapper2">
-
+	<h2>This is A Two Column Layout</h2>
+	<h3> using HTML and CSS</h3>
 		<div id="header2"><em><strong>Header</strong></em></div>
 
-		<div id="leftbody"><em>Leftbody</em></div>
+		<div id="leftbody"><em><strong>Leftbody</strong></em></div>
 
-		<div id="rightbody"><em>Rightbody</em></div>
+		<div id="rightbody"><em><strong>Rightbody</strong></em></div>
 
-		<div id="content"><em>Content</em><h3>Using CSS to style an HTML Form</h3>
+		<div id="content"><em><strong>Content</strong></em><h3>Using CSS to style an HTML Form</h3>
+
 
 <!--cite code found at W3School and altered to suit my purpose-->
 <div class="div">
 	<form action="/action_page.php">
 		<label for="fname">First Name</label>
-		<input type="text" id="fname" name="firstname" placeholder="Your name..">
+		<input type="text" id="fname" name="firstname" value="Your name.."/>
 
 		<label for="lname">Last Name</label>
-		<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		<input type="text" id="lname" name="lastname" value="Your last name.."/>
 
 		<label for="country">Country</label>
 		<select id="country" name="country">
@@ -88,26 +99,25 @@
 			<option value="canada">Canada</option>
 			<option value="usa">USA</option>
 		</select>
-		 <input type="submit" value="Submit">
+		<button type="button" onclick="buttonClick()">Submit</button>
+		 <!--I altered this so I could see the submission on the console, but I am aware that if I wanted it to be submitted for real I'd use an eventlister-->
 
 		</form>
 		</div>
  </div>
+
  <div id="footer2">
  	<em>Footer</em>
  </div>
 </div>
 
 
-
-
-
 </div>
 
 <div id="footer">
-	<a name="bottom-header"</a><div class="blueText">Have a Happy Day!</div>
+<a name="bottom-header" class="blueText">Have a Happy Day!</a>
 </div>
-
+</div>
 </body>
 
 </html>

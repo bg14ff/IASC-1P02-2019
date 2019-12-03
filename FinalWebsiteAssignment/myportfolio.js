@@ -18,8 +18,12 @@ setTimeout(liveTime,60000);
 function date()
 {document.getElementById('para').innerHTML=Date();
 }
-
-
+//for submit of form info
+function buttonClick(){
+  console.log("The person's first name is " +document.getElementById('fname').value);
+  console.log(document.getElementById('lname').value);
+  console.log(document.getElementById('country').value);
+}
 
 //console.log(todayDate);
 
@@ -58,10 +62,28 @@ alert("It has been: "+difference+" seconds");
 
 }
 
+function submitInfo()
+{
+  console.log(document.getElementByClass(div).value);
+}
 
 function formOutputs(){
 	console.log(document.getElementById('inputText').value);
 }
+
+function birthYear(){
+
+  var age = prompt ("What is your age?");
+
+  var newDate = new Date();
+
+  var thisYear = newDate.getFullYear();
+
+  var birthYear = thisYear - age;
+
+  document.getElementById('year').innerHTML = birthYear;
+}
+
 
 
 
@@ -87,22 +109,23 @@ document.getElementById('Cinderella').innerHTML='<img src="https://media0.giphy.
 
 
 //A Function to printout Bonjour! when called
-
+var frenchHello = false;
+var englishHello = true;
 function pushMe()
 {
-  //var frenchHello = 0();
-  //var englishHello = 1();
-	document.getElementById("output").innerHTML="Bonjour!";
+if(englishHello){//if I put an ! in front of englishHello it would be asking opposite ie is it false
+	document.getElementById('output').innerHTML="Bonjour!";
   document.getElementById('output2').innerHTML="Au revoir!";
-
-  //console.log("0");
-//  if(output = 1){
-  //  document.getElementById('ouput').innerHTML="Bonjour!";
+englishHello = false;
+frenchHello = true;
   }
-  //else{
-    //document.getElementById('output').innerHTML="Hello!";
-  //}
-//}
+else {
+  document.getElementById('output').innerHTML="Hello!";
+  document.getElementById('output2').innerHTML="Goodbye!";
+  englishHello = true;
+  frenchHello = false;
+  }
+}
 
 //calculator
 function addition() {
@@ -150,31 +173,4 @@ function division() {
  var output = parseFloat(a) / parseFloat(b);
 
 document.getElementById('out').innerHTML = output;
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
 }
