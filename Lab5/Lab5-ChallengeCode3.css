@@ -5,12 +5,9 @@ body{
 }
 
 
-#wrapper{
-  width:750px;
-margin:0 auto;
-}
 
-#content{
+
+#box3{
   background-color:green;
   position:fixed;
   height:820px;
@@ -19,7 +16,7 @@ margin:0 auto;
   right:10px;
 }
 
-#leftborder{
+#box2{
   background-color:blue;
   position:fixed;
   top:20px;
@@ -28,7 +25,7 @@ margin:0 auto;
   width:220px;
 }
 
-#leftbody{
+#box3{
   position:fixed;
   top:20px;
   left:850px;
@@ -37,14 +34,7 @@ margin:0 auto;
   width:220px;
 }
 
-#rightbody{
-  position:fixed;
-  left:550px;
-  top:230px;
-  height:210px;
-  background-color:yellow;
-  width:220px;
-}
+
 
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">

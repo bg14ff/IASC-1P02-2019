@@ -20,9 +20,10 @@ function date()
 }
 //for submit of form info
 function buttonClick(){
-  console.log("The person's first name is " +document.getElementById('fname').value);
-  console.log(document.getElementById('lname').value);
-  console.log(document.getElementById('country').value);
+  console.log("The visitor's first name is: " +document.getElementById('fname').value);
+  console.log("The visitor's last name is:" +document.getElementById('lname').value);
+  console.log("The visitor's country is:" +document.getElementById('country').value);
+  console.log("The visitor's message to me is:" +document.getElementById('message').value);
 }
 
 //console.log(todayDate);
